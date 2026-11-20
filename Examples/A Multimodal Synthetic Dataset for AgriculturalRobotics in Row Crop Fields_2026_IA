@@ -1,0 +1,26 @@
+PAr lielu PDF (33MB)
+
+Links:
+
+https://ojs.sba.org.br/index.php/cba/article/view/6245/5592
+
+
+Domingues u. c. (2026) izstrādāja multimodālu sintētisko datu kopu lauksaimniecības robotikas vajadzībām, izmantojot NVIDIA Isaac Sim simulācijas vidi. Virtuālais mobilais robots tika aprīkots ar RGB-D kameru, LiDAR, IMU un odometrijas sistēmu, nodrošinot sinhronizētu attēlu un sensoru datu iegūšanu. Simulācijā tika modelēti dažādi kultūraugi, to augšanas posmi, apgaismojuma apstākļi un šķēršļi. Iegūtie dati tika izmantoti attēlu segmentācijas un navigācijas algoritmu sākotnējai pārbaudei, vienlaikus analizējot atšķirības starp sintētiskajiem un reālajiem datiem.
+
+Pētījums ir nozīmīgs lauksaimniecības attēlu ieguves sistēmu arhitektūras un aparatūras saskarņu simulācijas izpētei, jo demonstrē vairāku virtuālo sensoru integrāciju vienotā datu iegūšanas sistēmā. Aprakstīto pieeju iespējams pielāgot automatizētas upeņu lauka fotografēšanas sistēmas izstrādei, sākotnēji simulējot kameras darbību un pārvietošanās trajektoriju, bet vēlāk pārnesot attēlu iegūšanas loģiku uz fizisku aparatūru.
+
+
+Ko šī publikācija sniedz tavam kursa darbam?
+
+Publikācijas risinājums	 - Pielietojums tavā darbā
+NVIDIA Isaac Sim	 - Alternatīva Unreal Engine 5 simulācijas videi
+Virtuālais mobilais robots	 - Traktora vai kameras platformas modelēšana
+RGB-D kameras simulācija	 - Attēlu iegūšanas saskarnes testēšana
+IMU un odometrija	 - Attēlu sasaistīšana ar kustību
+Sinhronizēti sensoru dati	 - Vienotas datu iegūšanas arhitektūras izstrāde
+Procedurāli ģenerēts lauks	 - Upeņu rindu izvietojuma simulēšana
+Publiski pieejams pirmkods	 - Praktisks pamats simulācijas prototipa izstrādei
+
+Īpaši vērtīgi: atšķirībā no daudzām citām publikācijām pētnieki ir publiskojuši ne tikai iegūtos datus, bet arī simulācijas ģenerēšanas skriptus un 3D objektus. Tas dod iespēju izpētīt jau realizētu risinājumu, nevis visu veidot no nulles.
+
+Tomēr publikācijā nav detalizēti salīdzinātas fizisko kameru USB, CSI vai citas zemā līmeņa aparatūras saskarnes. Tāpēc šis darbs vairāk noder sensoru darbības un datu plūsmu simulācijai, nevis elektronisko saskarņu precīzai emulācijai.
