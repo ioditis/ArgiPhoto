@@ -1,0 +1,29 @@
+https://onlinelibrary.wiley.com/doi/epdf/10.1002/rob.22490 
+
+(27BM) -par lielu
+
+He u. c. (2025) izstrādāja automatizētu tomātu slimību novērtēšanas sistēmu, apvienojot fizisku lauksaimniecības robotu HuskyBot ar tā digitālo līdzinieku Unreal Engine 5 simulācijas vidē. Fiziskais robots bija aprīkots ar stereokameru un GPS pozicionēšanas sistēmu, savukārt virtuālā vide nodrošināja sintētisku augu attēlu iegūšanu dažādos apgaismojuma, vides un slimību izplatības apstākļos. Sistēmas vadībai tika izmantots ROS, Python un WebSocket komunikācijas risinājums. Iegūtie sintētiskie attēli tika izmantoti mašīnmācīšanās modeļa apmācībai, lai noteiktu slimību skarto lapu laukumu reālos lauka apstākļos.
+
+Pētījums ir nozīmīgs lauksaimniecības attēlu ieguves sistēmu arhitektūras un aparatūras saskarņu simulācijas izpētei, jo demonstrē fiziskas un virtuālas sistēmas integrāciju. Aprakstīto pieeju iespējams pielāgot traktora kameras sistēmas simulācijai, izmantojot virtuālu lauksaimniecības vidi, konfigurējamu kameru un automatizētu attēlu uzņemšanas algoritmu. Šāds risinājums ļautu pārbaudīt attēlu iegūšanas sistēmas darbības principus pirms fiziska prototipa izstrādes.
+
+
+1. Fiziskais robots — HuskyBot
+
+Pārvietojas starp tomātu rindām un iegūst augstas izšķirtspējas attēlus ar stereokameru. Tam ir GPS pozicionēšanas sistēma un īpašs apgaismojums fotografēšanai.
+
+
+2. Virtuālais robots — Unreal Engine 5
+
+Simulē HuskyBot un tomātu lauku, ļaujot automātiski ģenerēt augu attēlus dažādos apstākļos, tostarp ar atšķirīgām slimību pazīmēm.
+
+
+Izmantotā aparatūra un programmatūra
+Komponente -	Funkcija
+Husky mobilais robots	 - Pārvietošanās starp augu rindām
+PhenoStereo stereokamera - 	Augstas izšķirtspējas attēlu iegūšana
+Divas FLIR Blackfly S USB3 kameras - 	Stereoattēlu uzņemšana
+GPS (Piksi Multi) - 	Precīza pozicionēšana
+12 gaismas avoti	 - Vienmērīgāks apgaismojums
+Unreal Engine 5	 - Virtuāla lauka un robota simulācija
+ROS, Python	 - Robota vadība un attēlu iegūšanas automatizācija
+ROS Bridge (WebSocket) - 	Komunikācija starp ROS un UE5
