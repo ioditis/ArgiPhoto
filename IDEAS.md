@@ -18,3 +18,15 @@
 
 # Iespējams nepieciešamas 2 kameras, kas fotogrāfē uzreiz abas puses.
   Turpinot iepriekšējo ideju, iespējams būtu vērtīgi uzstadīt 2 kameras, kas nodoršīnātu, ka fotogrāfijas rada lielāku pārklājumu, nevis tikai nosedz vienu augu pusi. Bet virziens tāpat būtu jānorāda..
+
+
+# Iespējams kameru virzienu var noteikt arī skatoties 2 koordinātas
+  Vienu koordinātu,  kas ir fotoaparātam.. otru kas ir krūmam/foto objektam  - savstarpēji skatoties šo abu punktu novietojumu. Tad nevajdzētu kkāda veida virziena noteicēju pašai kamerai.
+
+# Svarīgi saprast kvalitātīva foto apstrādes kārtību
+  1) Noteikti kā pirmo procesu vajadzētu veikt foto degradācijas pakāpes noteikšanu, lai nekvaitatīva attēla gadījumā varētu paspēt uzņemt vēlvienu attēlu tam pašam obkjektam, pirms tālāk tiek veiktas citas darbības.
+  2) Alternatīva ir uzņemt uzreiz vairākus attēlus (3/5) izvēloties tikai  1 attēlu ar mazāko degradācijas pakāpi/ labāko kvalitāti.
+
+# Procesu pārraudzība/
+  1) Lai reaālas testēšanas apstākļos būtu ērti un vispār reāli saprast notiekošos procesus, to kartību un pats svarīgākis  - atrast kļūdas - iespējams būtu vertīgi kādā veidā glabāt logfailus ar laika zīmogiem un svarīgāko info. Tam būtu vēl kāda sistēma - mājaslapa- aplikācija, vai kaut kas cits. Ja var izmantot traktorā un caur telefonu, tad pa visam ērti..
+  2) 
